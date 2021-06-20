@@ -11,7 +11,7 @@ int main(void)
     upper = 300;    /* upper limit */
     step = 20;      /* step size */
      fahr = lower;
-	printf("Celcius\t\tFarhenheit\n");
+	printf("Farhenheit\t\tCelcius\n");
     while (fahr <= upper) {
         celsius = 5 * (fahr-32) / 9;
         printf("%d\t\t%d\n", fahr, celsius);
